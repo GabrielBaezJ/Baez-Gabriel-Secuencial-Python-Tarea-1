@@ -34,7 +34,7 @@ cd TU_REPOSITORIO
 
 ### 3. Ejecutar con Docker Compose
 
-docker compose up
+docker compose run --rm python-app python 01_secuencial.py  
 
 Docker descargará la imagen `python:3.11-alpine` (solo la primera vez) y ejecutará el script automáticamente.
 
