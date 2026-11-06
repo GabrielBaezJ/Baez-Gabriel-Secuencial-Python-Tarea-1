@@ -36,8 +36,6 @@ cd TU_REPOSITORIO
 
 docker compose run --rm python-app python 01_secuencial.py  
 
-Docker descargará la imagen `python:3.11-alpine` (solo la primera vez) y ejecutará el script automáticamente.
-
 ## Salida esperada
 
 Iniciando: Hervir agua para el café...
